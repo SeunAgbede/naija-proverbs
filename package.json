@@ -5,9 +5,8 @@
   "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/server.js",
-    "start": "NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider ./node_modules/.bin/netlify-lambda serve src",
-    "build": "NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider ./node_modules/.bin/netlify-lambda build src",
+    "start": "netlify dev",
+    "build": "netlify build",
     "depcheck": "depcheck"
   },
   "keywords": [],
