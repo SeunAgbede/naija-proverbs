@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "netlify dev",
-    "build": "netlify build functions",
+    "build": "netlify dev",
     "depcheck": "depcheck"
   },
   "keywords": [],
