@@ -2,11 +2,10 @@
   "name": "naija-proverbs",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.js",
+  "main": "api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "netlify dev",
-    "build": "netlify build",
+    "dev": "netlify dev",
     "depcheck": "depcheck"
   },
   "keywords": [],
